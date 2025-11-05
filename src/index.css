@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary: #028482 !important;
+  --color-primary: #028482 !important;
+  --color-green: #028482 !important;
+  --color-dark: #212521 !important;
+  --gray: #e7e7e7 !important;
+  --grey: #e2e8f0 !important;
+  --litegray: #fafafb !important;
+  --dark: #212521 !important;
+  --drey: #3c3c3c !important;
+  --litegreen: #60e0d9 !important;
+  --color: #028482 !important;
+  --color-lite: #00cdc3 !important;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
