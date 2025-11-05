@@ -24,7 +24,7 @@ This website serves as the academy’s digital presence — showcasing its cours
 
 | Category | Technology |
 |-----------|-------------|
-| Framework | **Next.js (React)** |
+| Framework | **React-Vite** |
 | Styling | **Tailwind CSS** |
 | Deployment | **Vercel** |
 | Language | **TypeScript / JavaScript (ES6+)** |
