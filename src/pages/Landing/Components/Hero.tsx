@@ -1,6 +1,6 @@
 import React from "react";
 import backgroundImage from "../../../assets/mosque-background.png";
-
+import logo from "../../../assets/an-noor.png";
 const AlNoorHero: React.FC = () => {
   return (
     <div className="relative h-screen bg-[#0A2519] text-white overflow-hidden">
@@ -10,6 +10,16 @@ const AlNoorHero: React.FC = () => {
       >
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="absolute inset-0 bg-linear-to-t from-black/70 via-transparent to-black/30"></div>
+      </div>
+      <div className="absolute flex items-center top-5 left-2 justify-center gap-2">
+        <img
+          src={logo}
+          alt="Al-Noor Academy Logo"
+          className="mx-auto mb-6 w-10 h-10 md:w-15 md:h-15  rounded-full relative z-10 "
+        />
+        <p className="hidden md:block text-[#F8B600] italic font-bold float-left relative bottom-2 z-10">
+          An-Noor Quran Acadeny
+        </p>
       </div>
 
       <div
